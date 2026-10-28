@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9ccbf0" />
+      <stop offset="0.7" stop-color="#dcecf8" />
+      <stop offset="1" stop-color="#f6f3ea" />
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7efdf" />
+      <stop offset="1" stop-color="#e6d9bf" />
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd49a" />
+      <stop offset="1" stop-color="#6fb273" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky, sun and clouds -->
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <circle cx="1310" cy="160" r="58" fill="#fff2c2" />
+  <g fill="#ffffff" opacity="0.85">
+    <ellipse cx="240" cy="170" rx="110" ry="30" />
+    <ellipse cx="330" cy="150" rx="70" ry="36" />
+    <ellipse cx="1030" cy="120" rx="120" ry="28" />
+    <ellipse cx="1120" cy="104" rx="70" ry="30" />
+    <ellipse cx="560" cy="210" rx="90" ry="22" />
+  </g>
+
+  <!-- Distant hills -->
+  <path d="M0 560 Q200 470 420 540 T860 520 T1300 500 T1600 550 V900 H0Z" fill="#b8d9b0" />
+
+  <!-- Side wings -->
+  <rect x="200" y="500" width="250" height="210" fill="#ebe0c9" />
+  <rect x="1150" y="500" width="250" height="210" fill="#ebe0c9" />
+  <rect x="190" y="488" width="270" height="18" fill="#7f8ca3" />
+  <rect x="1140" y="488" width="270" height="18" fill="#7f8ca3" />
+  <g fill="#5f7fb0" opacity="0.7">
+    <rect x="232" y="530" width="38" height="50" rx="3" />
+    <rect x="302" y="530" width="38" height="50" rx="3" />
+    <rect x="372" y="530" width="38" height="50" rx="3" />
+    <rect x="1182" y="530" width="38" height="50" rx="3" />
+    <rect x="1252" y="530" width="38" height="50" rx="3" />
+    <rect x="1322" y="530" width="38" height="50" rx="3" />
+  </g>
+
+  <!-- Main building -->
+  <rect x="420" y="420" width="760" height="290" fill="url(#stone)" />
+  <rect x="400" y="404" width="800" height="22" fill="#7f8ca3" />
+  <g fill="#5f7fb0" opacity="0.7">
+    <rect x="452" y="452" width="38" height="50" rx="3" />
+    <rect x="522" y="452" width="38" height="50" rx="3" />
+    <rect x="592" y="452" width="38" height="50" rx="3" />
+    <rect x="662" y="452" width="38" height="50" rx="3" />
+    <rect x="938" y="452" width="38" height="50" rx="3" />
+    <rect x="1008" y="452" width="38" height="50" rx="3" />
+    <rect x="1078" y="452" width="38" height="50" rx="3" />
+    <rect x="1148" y="452" width="38" height="50" rx="3" />
+    <rect x="452" y="530" width="38" height="50" rx="3" />
+    <rect x="522" y="530" width="38" height="50" rx="3" />
+    <rect x="592" y="530" width="38" height="50" rx="3" />
+    <rect x="662" y="530" width="38" height="50" rx="3" />
+    <rect x="938" y="530" width="38" height="50" rx="3" />
+    <rect x="1008" y="530" width="38" height="50" rx="3" />
+    <rect x="1078" y="530" width="38" height="50" rx="3" />
+    <rect x="1148" y="530" width="38" height="50" rx="3" />
+  </g>
+
+  <!-- Clock tower with cobalt roof and flag -->
+  <rect x="740" y="290" width="120" height="140" fill="url(#stone)" />
+  <polygon points="726,292 800,206 874,292" fill="#2440d6" />
+  <rect x="798" y="120" width="4" height="90" fill="#5b6578" />
+  <polygon points="802,122 848,136 802,150" fill="#e5a00d" />
+  <circle cx="800" cy="350" r="30" fill="#ffffff" stroke="#5b6578" stroke-width="4" />
+  <line x1="800" y1="350" x2="800" y2="332" stroke="#14171f" stroke-width="3" stroke-linecap="round" />
+  <line x1="800" y1="350" x2="814" y2="356" stroke="#14171f" stroke-width="3" stroke-linecap="round" />
+  <rect x="786" y="392" width="28" height="30" rx="14" fill="#5f7fb0" opacity="0.75" />
+
+  <!-- Entrance portico -->
+  <polygon points="716,540 800,490 884,540" fill="#e9dfcc" />
+  <rect x="722" y="538" width="156" height="14" fill="#fbf7ef" />
+  <g fill="#fbf7ef">
+    <rect x="730" y="552" width="14" height="160" />
+    <rect x="760" y="552" width="14" height="160" />
+    <rect x="826" y="552" width="14" height="160" />
+    <rect x="856" y="552" width="14" height="160" />
+  </g>
+  <rect x="782" y="620" width="36" height="92" rx="18" fill="#3d4a63" />
+  <rect x="700" y="712" width="200" height="14" fill="#d9cfbd" />
+  <rect x="680" y="726" width="240" height="12" fill="#cfc4ad" />
+
+  <!-- Lawn and walkway -->
+  <rect x="0" y="738" width="1600" height="162" fill="url(#lawn)" />
+  <polygon points="790,738 810,738 930,900 670,900" fill="#efe6d2" opacity="0.95" />
+
+  <!-- Trees -->
+  <g>
+    <rect x="144" y="700" width="12" height="44" fill="#6b5a45" />
+    <circle cx="150" cy="670" r="50" fill="#4f9364" />
+    <circle cx="118" cy="690" r="36" fill="#5fa673" />
+    <circle cx="184" cy="688" r="38" fill="#5fa673" />
+
+    <rect x="1444" y="700" width="12" height="44" fill="#6b5a45" />
+    <circle cx="1450" cy="670" r="50" fill="#4f9364" />
+    <circle cx="1418" cy="690" r="36" fill="#5fa673" />
+    <circle cx="1484" cy="688" r="38" fill="#5fa673" />
+
+    <rect x="354" y="724" width="10" height="30" fill="#6b5a45" />
+    <circle cx="360" cy="702" r="34" fill="#4f9364" />
+    <circle cx="336" cy="716" r="24" fill="#5fa673" />
+    <circle cx="384" cy="716" r="26" fill="#5fa673" />
+
+    <rect x="1234" y="724" width="10" height="30" fill="#6b5a45" />
+    <circle cx="1240" cy="702" r="34" fill="#4f9364" />
+    <circle cx="1216" cy="716" r="24" fill="#5fa673" />
+    <circle cx="1264" cy="716" r="26" fill="#5fa673" />
+  </g>
+</svg>

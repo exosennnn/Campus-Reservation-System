@@ -1,70 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Campus Event & Seat Reservation</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="navbar">
-    <div class="logo">🎓 CampusEvents</div>
-    <div class="nav-controls">
-      <button id="view-bookings-btn" class="btn-secondary">My Bookings</button>
-    </div>
-  </header>
-
-  <main class="container">
-    <!-- View 1: Event Discovery Catalog -->
-    <section id="catalog-view" class="view active">
-      <div class="filter-bar">
-        <input type="text" id="search-input" placeholder="Search campus events..." />
-        <select id="category-filter">
-          <option value="all">All Categories</option>
-          <option value="Tech">Tech</option>
-          <option value="Arts">Arts</option>
-          <option value="Sports">Sports</option>
-        </select>
-      </div>
-      <div id="event-grid" class="event-grid"></div>
-    </section>
-
-    <!-- View 2: Interactive Seat Map -->
-    <section id="seat-view" class="view">
-      <button id="back-to-catalog" class="btn-secondary">← Back to Events</button>
-      <div class="event-header-summary">
-        <h2 id="active-event-title">Event Title</h2>
-        <p id="active-event-details">Date • Venue</p>
-      </div>
-
-      <!-- Temporary Hold Timer Banner -->
-      <div id="hold-banner" class="hold-banner hidden">
-        Seats held! Complete booking in: <span id="timer-display">05:00</span>
-      </div>
-
-      <div class="screen-stage">STAGE / FRONT</div>
-      <div id="seat-grid" class="seat-grid"></div>
-
-      <div class="seat-legend">
-        <span><i class="legend-box available"></i> Available</span>
-        <span><i class="legend-box selected"></i> Selected</span>
-        <span><i class="legend-box reserved"></i> Reserved</span>
-      </div>
-
-      <div class="checkout-bar">
-        <div>Total: <strong id="total-price">$0</strong> (<span id="seat-count">0</span> seats)</div>
-        <button id="proceed-checkout-btn" class="btn-primary" disabled>Reserve Selected Seats</button>
-      </div>
-    </section>
-
-    <!-- View 3: Booked Tickets History -->
-    <section id="history-view" class="view">
-      <button id="back-from-history" class="btn-secondary">← Back to Events</button>
-      <h2>My Reserved Passes</h2>
-      <div id="history-list" class="history-list"></div>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Browse campus events and reserve seats." />
+    <title>Campus Event & Seat Reservation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
